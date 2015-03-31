@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0AF3351ACA218F005C98F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF3341ACA218F005C98F0 /* AppDelegate.swift */; };
+		DC0AF3371ACA218F005C98F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF3361ACA218F005C98F0 /* ViewController.swift */; };
+		DC0AF3391ACA218F005C98F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0AF3381ACA218F005C98F0 /* Images.xcassets */; };
+		DC0AF33C1ACA218F005C98F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0AF33A1ACA218F005C98F0 /* Main.storyboard */; };
+		DC0AF3481ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0AF3421ACA218F005C98F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0AF3271ACA218F005C98F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0AF32E1ACA218F005C98F0;
+			remoteInfo = "Scouting Merger 2015";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0AF32F1ACA218F005C98F0 /* Scouting Merger 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scouting Merger 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0AF3331ACA218F005C98F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0AF3341ACA218F005C98F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC0AF3361ACA218F005C98F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC0AF3381ACA218F005C98F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC0AF33B1ACA218F005C98F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0AF3411ACA218F005C98F0 /* Scouting Merger 2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scouting Merger 2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0AF3461ACA218F005C98F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scouting_Merger_2015Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0AF32C1ACA218F005C98F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0AF33E1ACA218F005C98F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0AF3261ACA218F005C98F0 = {
+			isa = PBXGroup;
+			children = (
+				DC0AF3311ACA218F005C98F0 /* Scouting Merger 2015 */,
+				DC0AF3441ACA218F005C98F0 /* Scouting Merger 2015Tests */,
+				DC0AF3301ACA218F005C98F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0AF3301ACA218F005C98F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF32F1ACA218F005C98F0 /* Scouting Merger 2015.app */,
+				DC0AF3411ACA218F005C98F0 /* Scouting Merger 2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0AF3311ACA218F005C98F0 /* Scouting Merger 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF3341ACA218F005C98F0 /* AppDelegate.swift */,
+				DC0AF3361ACA218F005C98F0 /* ViewController.swift */,
+				DC0AF3381ACA218F005C98F0 /* Images.xcassets */,
+				DC0AF33A1ACA218F005C98F0 /* Main.storyboard */,
+				DC0AF3321ACA218F005C98F0 /* Supporting Files */,
+			);
+			path = "Scouting Merger 2015";
+			sourceTree = "<group>";
+		};
+		DC0AF3321ACA218F005C98F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF3331ACA218F005C98F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0AF3441ACA218F005C98F0 /* Scouting Merger 2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */,
+				DC0AF3451ACA218F005C98F0 /* Supporting Files */,
+			);
+			path = "Scouting Merger 2015Tests";
+			sourceTree = "<group>";
+		};
+		DC0AF3451ACA218F005C98F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0AF3461ACA218F005C98F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0AF32E1ACA218F005C98F0 /* Scouting Merger 2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0AF34B1ACA218F005C98F0 /* Build configuration list for PBXNativeTarget "Scouting Merger 2015" */;
+			buildPhases = (
+				DC0AF32B1ACA218F005C98F0 /* Sources */,
+				DC0AF32C1ACA218F005C98F0 /* Frameworks */,
+				DC0AF32D1ACA218F005C98F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scouting Merger 2015";
+			productName = "Scouting Merger 2015";
+			productReference = DC0AF32F1ACA218F005C98F0 /* Scouting Merger 2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0AF3401ACA218F005C98F0 /* Scouting Merger 2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0AF34E1ACA218F005C98F0 /* Build configuration list for PBXNativeTarget "Scouting Merger 2015Tests" */;
+			buildPhases = (
+				DC0AF33D1ACA218F005C98F0 /* Sources */,
+				DC0AF33E1ACA218F005C98F0 /* Frameworks */,
+				DC0AF33F1ACA218F005C98F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0AF3431ACA218F005C98F0 /* PBXTargetDependency */,
+			);
+			name = "Scouting Merger 2015Tests";
+			productName = "Scouting Merger 2015Tests";
+			productReference = DC0AF3411ACA218F005C98F0 /* Scouting Merger 2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0AF3271ACA218F005C98F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Stephen Brimhall";
+				TargetAttributes = {
+					DC0AF32E1ACA218F005C98F0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DC0AF3401ACA218F005C98F0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DC0AF32E1ACA218F005C98F0;
+					};
+				};
+			};
+			buildConfigurationList = DC0AF32A1ACA218F005C98F0 /* Build configuration list for PBXProject "Scouting Merger 2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0AF3261ACA218F005C98F0;
+			productRefGroup = DC0AF3301ACA218F005C98F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0AF32E1ACA218F005C98F0 /* Scouting Merger 2015 */,
+				DC0AF3401ACA218F005C98F0 /* Scouting Merger 2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0AF32D1ACA218F005C98F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0AF3391ACA218F005C98F0 /* Images.xcassets in Resources */,
+				DC0AF33C1ACA218F005C98F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0AF33F1ACA218F005C98F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0AF32B1ACA218F005C98F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0AF3371ACA218F005C98F0 /* ViewController.swift in Sources */,
+				DC0AF3351ACA218F005C98F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0AF33D1ACA218F005C98F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0AF3481ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0AF3431ACA218F005C98F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0AF32E1ACA218F005C98F0 /* Scouting Merger 2015 */;
+			targetProxy = DC0AF3421ACA218F005C98F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC0AF33A1ACA218F005C98F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0AF33B1ACA218F005C98F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC0AF3491ACA218F005C98F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC0AF34A1ACA218F005C98F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC0AF34C1ACA218F005C98F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Scouting Merger 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC0AF34D1ACA218F005C98F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Scouting Merger 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC0AF34F1ACA218F005C98F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scouting Merger 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scouting Merger 2015.app/Contents/MacOS/Scouting Merger 2015";
+			};
+			name = Debug;
+		};
+		DC0AF3501ACA218F005C98F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scouting Merger 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scouting Merger 2015.app/Contents/MacOS/Scouting Merger 2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0AF32A1ACA218F005C98F0 /* Build configuration list for PBXProject "Scouting Merger 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0AF3491ACA218F005C98F0 /* Debug */,
+				DC0AF34A1ACA218F005C98F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0AF34B1ACA218F005C98F0 /* Build configuration list for PBXNativeTarget "Scouting Merger 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0AF34C1ACA218F005C98F0 /* Debug */,
+				DC0AF34D1ACA218F005C98F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC0AF34E1ACA218F005C98F0 /* Build configuration list for PBXNativeTarget "Scouting Merger 2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0AF34F1ACA218F005C98F0 /* Debug */,
+				DC0AF3501ACA218F005C98F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0AF3271ACA218F005C98F0 /* Project object */;
+}
