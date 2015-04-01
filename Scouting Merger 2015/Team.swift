@@ -18,7 +18,7 @@ import Foundation
 /// and finds all matches (if any) relating to that team
 class Team {
 	let team: String;
-	var data = [String,Double]();
+	
 	var usesFeeder = false;
 	var usesLandfill = false;
 	
@@ -29,18 +29,21 @@ class Team {
 	convenience init (_ team: String, matches: [Match]) {
 		self.init(team);
 		
-		// Implement April 1
+        for entry in Team.csvArray() {
+            
+        }
+        
+        for match in matches {
+            for (matchEntry: String,teamEntry: String) in (Match.csvArray(),Team.csvArray()) {
+                
+            }
+        }
 	}
 	
 	func toCSV () -> String {
-		var result = "\(team),";
+		var result = "";
 		
-		for key in Team.csvHeader().componentsSeparatedByString(",") {
-			result += "\(data),";
-		}
-		
-		result += usesFeeder.toString() + ",";
-		result += usesLandfill.toString() + ",";
+		// Implement April 2
 		
 		return result;
 	}
@@ -63,4 +66,8 @@ class Team {
 		
 		return result;
 	}
+    
+    class func csvArray() -> [String] {
+        return csvHeader().componentsSeparatedByString(",");
+    }
 }

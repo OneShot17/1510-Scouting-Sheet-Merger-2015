@@ -8,6 +8,9 @@
 
 import Foundation
 
+/// Match
+///
+/// Stores scouting information on one match. Has two initializers. The first takes a team number and stores it as a string. The second can return nil and acts as a parser that converts a string into a match.
 class Match : Comparable {
 	
 	var matchInfo = [String:String]();
