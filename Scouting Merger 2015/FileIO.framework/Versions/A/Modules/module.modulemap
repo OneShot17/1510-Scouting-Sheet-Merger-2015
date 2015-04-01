@@ -1,0 +1,10 @@
+framework module FileIO {
+  umbrella header "FileIO.h"
+
+  export *
+  module * { export * }
+}
+
+module FileIO.Swift {
+    header "FileIO-Swift.h"
+}

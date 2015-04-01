@@ -12,6 +12,14 @@
 		DC0AF3391ACA218F005C98F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0AF3381ACA218F005C98F0 /* Images.xcassets */; };
 		DC0AF33C1ACA218F005C98F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0AF33A1ACA218F005C98F0 /* Main.storyboard */; };
 		DC0AF3481ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */; };
+		DC8AE6571ACB2ECA00163608 /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8AE6561ACB2ECA00163608 /* FileIO.framework */; };
+		DCEAEABF1ACA27C200DA10C9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEABE1ACA27C200DA10C9 /* Globals.swift */; };
+		DCEAEAC41ACA281300DA10C9 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAC01ACA281300DA10C9 /* Match.swift */; };
+		DCEAEAC51ACA281300DA10C9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAC11ACA281300DA10C9 /* Team.swift */; };
+		DCEAEAC61ACA281300DA10C9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAC21ACA281300DA10C9 /* String.swift */; };
+		DCEAEAC71ACA281300DA10C9 /* ImplicitCastingOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAC31ACA281300DA10C9 /* ImplicitCastingOperators.swift */; };
+		DCEAEAD61ACA308C00DA10C9 /* ESEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAD41ACA308C00DA10C9 /* ESEvent.swift */; };
+		DCEAEAD71ACA308C00DA10C9 /* ESTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAD51ACA308C00DA10C9 /* ESTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,14 @@
 		DC0AF3411ACA218F005C98F0 /* Scouting Merger 2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scouting Merger 2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0AF3461ACA218F005C98F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scouting_Merger_2015Tests.swift; sourceTree = "<group>"; };
+		DC8AE6561ACB2ECA00163608 /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileIO.framework; path = "Scouting Merger 2015/FileIO.framework"; sourceTree = "<group>"; };
+		DCEAEABE1ACA27C200DA10C9 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		DCEAEAC01ACA281300DA10C9 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		DCEAEAC11ACA281300DA10C9 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		DCEAEAC21ACA281300DA10C9 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DCEAEAC31ACA281300DA10C9 /* ImplicitCastingOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitCastingOperators.swift; sourceTree = "<group>"; };
+		DCEAEAD41ACA308C00DA10C9 /* ESEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESEvent.swift; sourceTree = "<group>"; };
+		DCEAEAD51ACA308C00DA10C9 /* ESTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8AE6571ACB2ECA00163608 /* FileIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +74,7 @@
 		DC0AF3261ACA218F005C98F0 = {
 			isa = PBXGroup;
 			children = (
+				DC8AE6561ACB2ECA00163608 /* FileIO.framework */,
 				DC0AF3311ACA218F005C98F0 /* Scouting Merger 2015 */,
 				DC0AF3441ACA218F005C98F0 /* Scouting Merger 2015Tests */,
 				DC0AF3301ACA218F005C98F0 /* Products */,
@@ -79,6 +97,13 @@
 				DC0AF3361ACA218F005C98F0 /* ViewController.swift */,
 				DC0AF3381ACA218F005C98F0 /* Images.xcassets */,
 				DC0AF33A1ACA218F005C98F0 /* Main.storyboard */,
+				DCEAEABE1ACA27C200DA10C9 /* Globals.swift */,
+				DCEAEAC01ACA281300DA10C9 /* Match.swift */,
+				DCEAEAC11ACA281300DA10C9 /* Team.swift */,
+				DCEAEAC21ACA281300DA10C9 /* String.swift */,
+				DCEAEAC31ACA281300DA10C9 /* ImplicitCastingOperators.swift */,
+				DCEAEAD41ACA308C00DA10C9 /* ESEvent.swift */,
+				DCEAEAD51ACA308C00DA10C9 /* ESTimer.swift */,
 				DC0AF3321ACA218F005C98F0 /* Supporting Files */,
 			);
 			path = "Scouting Merger 2015";
@@ -208,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEAEAC61ACA281300DA10C9 /* String.swift in Sources */,
 				DC0AF3371ACA218F005C98F0 /* ViewController.swift in Sources */,
+				DCEAEAD61ACA308C00DA10C9 /* ESEvent.swift in Sources */,
+				DCEAEAC71ACA281300DA10C9 /* ImplicitCastingOperators.swift in Sources */,
 				DC0AF3351ACA218F005C98F0 /* AppDelegate.swift in Sources */,
+				DCEAEABF1ACA27C200DA10C9 /* Globals.swift in Sources */,
+				DCEAEAC51ACA281300DA10C9 /* Team.swift in Sources */,
+				DCEAEAC41ACA281300DA10C9 /* Match.swift in Sources */,
+				DCEAEAD71ACA308C00DA10C9 /* ESTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +357,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Event-bldifrfcgbysugbjtcbmtneoekbc/Build/Products/Debug",
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
+				);
 				INFOPLIST_FILE = "Scouting Merger 2015/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +381,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Event-bldifrfcgbysugbjtcbmtneoekbc/Build/Products/Debug",
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
+				);
 				INFOPLIST_FILE = "Scouting Merger 2015/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +455,7 @@
 				DC0AF34D1ACA218F005C98F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC0AF34E1ACA218F005C98F0 /* Build configuration list for PBXNativeTarget "Scouting Merger 2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +464,7 @@
 				DC0AF3501ACA218F005C98F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

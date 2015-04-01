@@ -12,7 +12,8 @@ class ViewController: NSViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-
+		Globals.incrementFiles.connect(incrementFiles);
+		Globals.incrementMatches.connect(incrementMatches);
 		// Do any additional setup after loading the view.
 	}
 
@@ -21,7 +22,15 @@ class ViewController: NSViewController {
 		// Update the view, if already loaded.
 		}
 	}
-
-
+	@IBOutlet weak var fileCount: NSTextFieldCell!
+	@IBOutlet weak var matchCount: NSTextFieldCell!
+	
+	func incrementMatches() {
+		matchCount.integerValue++;
+	}
+	
+	func incrementFiles() {
+		fileCount.integerValue++;
+	}
 }
 
