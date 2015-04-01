@@ -64,5 +64,5 @@ func < (left: Match, right: Match) -> Bool {
 }
 
 func == (left: Match, right: Match) -> Bool {
-	return left.getInfo(entry: "Team") == right.getInfo(entry: "Team");
+	return left.getInfo("Team") == right.getInfo("Team");
 }

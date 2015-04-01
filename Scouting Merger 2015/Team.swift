@@ -29,12 +29,18 @@ class Team {
 	convenience init (_ team: String, matches: [Match]) {
 		self.init(team);
 		
+		// Implement April 1
 	}
 	
-	let toCSV = { () -> String in
-		var result = "";
+	func toCSV () -> String {
+		var result = "\(team),";
 		
-		// Implement this by April 1
+		for key in Team.csvHeader().componentsSeparatedByString(",") {
+			result += "\(data),";
+		}
+		
+		result += usesFeeder.toString() + ",";
+		result += usesLandfill.toString() + ",";
 		
 		return result;
 	}
