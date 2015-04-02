@@ -10,7 +10,7 @@ import Foundation
 
 /// Match
 ///
-/// Stores scouting information on one match. Has two initializers. The first takes a team number and stores it as a string. The second can return nil and acts as a parser that converts a string into a match.
+/// Stores scouting information on one match. Has two initializers. The first takes a team number and stores it as a String. The second can return nil and acts as a parser that converts a String into a Match.
 class Match : Comparable {
 	
 	var matchInfo = [String:String]();
@@ -30,6 +30,10 @@ class Match : Comparable {
 		}
 	}
 	
+    /// Returns the given entry in the information dictionary as an implicity unwrapped optional
+    ///
+    /// :param: String The entry to return
+    /// :returns: The entry in the dictionary, or nil if entry was not a valid request
 	func getInfo (entry: String) -> String! {
 		let header = Match.csvArray();
 		for var i = 0; i < header.count; i++ {

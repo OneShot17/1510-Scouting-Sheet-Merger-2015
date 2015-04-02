@@ -8,6 +8,7 @@
 
 import Cocoa
 import XCTest
+import Scouting_Merger_2015;
 
 class Scouting_Merger_2015Tests: XCTestCase {
     
@@ -22,8 +23,7 @@ class Scouting_Merger_2015Tests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        
     }
     
     func testPerformanceExample() {

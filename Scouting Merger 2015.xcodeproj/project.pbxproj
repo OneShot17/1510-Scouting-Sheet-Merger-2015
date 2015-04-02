@@ -12,7 +12,7 @@
 		DC0AF3391ACA218F005C98F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0AF3381ACA218F005C98F0 /* Images.xcassets */; };
 		DC0AF33C1ACA218F005C98F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0AF33A1ACA218F005C98F0 /* Main.storyboard */; };
 		DC0AF3481ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */; };
-		DC8AE6571ACB2ECA00163608 /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8AE6561ACB2ECA00163608 /* FileIO.framework */; };
+		DC505E611ACCBF98005518F6 /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC505E601ACCBF98005518F6 /* FileIO.framework */; };
 		DC8AE65B1ACB86D000163608 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8AE65A1ACB86D000163608 /* Bool.swift */; };
 		DCEAEABF1ACA27C200DA10C9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEABE1ACA27C200DA10C9 /* Globals.swift */; };
 		DCEAEAC41ACA281300DA10C9 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEAC01ACA281300DA10C9 /* Match.swift */; };
@@ -43,7 +43,7 @@
 		DC0AF3411ACA218F005C98F0 /* Scouting Merger 2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scouting Merger 2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0AF3461ACA218F005C98F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC0AF3471ACA218F005C98F0 /* Scouting_Merger_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scouting_Merger_2015Tests.swift; sourceTree = "<group>"; };
-		DC8AE6561ACB2ECA00163608 /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileIO.framework; path = "Scouting Merger 2015/FileIO.framework"; sourceTree = "<group>"; };
+		DC505E601ACCBF98005518F6 /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FileIO.framework; sourceTree = "<group>"; };
 		DC8AE65A1ACB86D000163608 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
 		DC8AE65C1ACB87AE00163608 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		DCEAEABE1ACA27C200DA10C9 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC8AE6571ACB2ECA00163608 /* FileIO.framework in Frameworks */,
+				DC505E611ACCBF98005518F6 /* FileIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 		DC0AF3261ACA218F005C98F0 = {
 			isa = PBXGroup;
 			children = (
-				DC8AE6561ACB2ECA00163608 /* FileIO.framework */,
 				DC0AF3311ACA218F005C98F0 /* Scouting Merger 2015 */,
 				DC0AF3441ACA218F005C98F0 /* Scouting Merger 2015Tests */,
 				DC0AF3301ACA218F005C98F0 /* Products */,
@@ -109,6 +108,7 @@
 				DCEAEAD41ACA308C00DA10C9 /* ESEvent.swift */,
 				DCEAEAD51ACA308C00DA10C9 /* ESTimer.swift */,
 				DC8AE65A1ACB86D000163608 /* Bool.swift */,
+				DC505E601ACCBF98005518F6 /* FileIO.framework */,
 				DC0AF3321ACA218F005C98F0 /* Supporting Files */,
 			);
 			path = "Scouting Merger 2015";
@@ -375,6 +375,9 @@
 					"$(PROJECT_DIR)/Scouting",
 					Merger,
 					2015,
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
 				);
 				INFOPLIST_FILE = "Scouting Merger 2015/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -393,6 +396,9 @@
 					Merger,
 					2015,
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Event-bldifrfcgbysugbjtcbmtneoekbc/Build/Products/Debug",
+					"$(PROJECT_DIR)/Scouting",
+					Merger,
+					2015,
 					"$(PROJECT_DIR)/Scouting",
 					Merger,
 					2015,

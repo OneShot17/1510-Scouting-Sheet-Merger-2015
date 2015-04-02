@@ -24,8 +24,9 @@ public class ESEvent {
 	/// Connect a new function to this Event
 	///
 	/// :param: target The target function to add
-	public final func connect(target : Void -> Void) {
+	public final func connect(target : Void -> Void) -> Void {
 		targets.append(target);
+        return;
 	}
 	
 	/// Fire the event, calling all connected functions

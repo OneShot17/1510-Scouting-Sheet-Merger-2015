@@ -39,4 +39,15 @@ extension String {
 		}
 		return i;
 	}
+    
+    public func toBool() -> Bool? {
+        switch self {
+            case "TRUE":
+                return true;
+            case "FALSE":
+                return false;
+            default:
+                return nil;
+        }
+    }
 }
