@@ -39,13 +39,13 @@ class Team {
         self.init(team);
         
         var autoZoneEnds = 0;
-        var autoTotes = 0;
-        var autoBins = 0;
-        var teleStacks = 0;
+        var autoTotes = 0.0;
+        var autoBins = 0.0;
+        var teleStacks = 0.0;
         var teleTotesPerStack = 0.0;
-        var teleTotes = 0;
-        var teleBins = 0;
-        var teleLitter = 0;
+        var teleTotes = 0.0;
+        var teleBins = 0.0;
+        var teleLitter = 0.0;
         
         for match in matches {
             if match.getInfo("Team") == team {
@@ -66,13 +66,33 @@ class Team {
                     maxBinHeight = match.getInfo("Highest stack height").toInt()!;
                 }
             }
+            autoZonePct = Double(autoZoneEnds)/Double(self.matches);
+            autoToteAvg = autoTotes/self.matches;
+            autoBinAvg = autoBins/self.matches;
+            teleStackAvg = teleStacks/self.matches;
+            teleTotesPerStackAvg = teleTotesPerStack/self.matches;
+            teleTotesAvg = teleTotes/self.matches;
+            teleBinsAvg = teleBins/self.matches;
+            teleLitterAvg = teleLitter/self.matches;
         }
     }
     
     func toCSV () -> String {
         var result = "";
         
-        // Implement April 2
+        result += "\(team),";
+        result += "\(matches),";
+        result += "\(autoZonePct),";
+        result += "\(autoToteAvg),";
+        result += "\(autoBinAvg),";
+        result += "\(teleStackAvg),";
+        result += "\(teleTotesPerStackAvg),";
+        result += "\(teleTotesAvg),";
+        result += "\(teleBinsAvg),";
+        result += "\(teleLitterAvg),";
+        result += "\(maxBinHeight),";
+        result += "\(usesFeeder.toString()),";
+        result += "\(usesLandfill.toString()),";
         
         return result;
     }

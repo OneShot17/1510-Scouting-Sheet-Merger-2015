@@ -10,6 +10,11 @@ import Foundation
 
 extension String {
 	public func toDouble() -> Double? {
+        
+        if self == "nan" {
+            return 0.0/0.0;
+        }
+        
 		let splitted : [String] = self.componentsSeparatedByCharactersInSet(NSCharacterSet(charactersInString: "."));
 		var firstPart = 0;
 		var secondPart = 0;

@@ -13,5 +13,6 @@ struct Globals {
 	static var teams = [Team]();
 	static var incrementFiles = ESEvent();
 	static var incrementMatches = ESEvent();
-    static var testSave = ESEvent();
+    static var save = ESEvent();
+    static var URL : NSURL? = nil;
 }

@@ -32,5 +32,11 @@ class ViewController: NSViewController {
 	func incrementFiles() {
 		fileCount.integerValue++;
 	}
+    
+    @IBAction func compileData(sender: AnyObject) {
+        for team in Match.getTeams(Globals.matches) {
+            Globals.teams.append(Team(team, matches: Globals.matches));
+        }
+    }
 }
 

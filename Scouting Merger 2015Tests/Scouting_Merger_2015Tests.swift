@@ -22,7 +22,7 @@ class Scouting_Merger_2015Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testMatch() {
         
     }
     
