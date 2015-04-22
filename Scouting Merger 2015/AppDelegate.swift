@@ -8,7 +8,6 @@
 
 import Cocoa
 import AppKit
-import FileIO
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -66,7 +65,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 						if possiblyAMatch == Match.csvHeader() {
 							continue;
 						}
-						Globals.matches.append(Match(possiblyAMatch));
+						Globals.matches.append(Match(fromString: possiblyAMatch)!);
 					}
 				}
 			}
