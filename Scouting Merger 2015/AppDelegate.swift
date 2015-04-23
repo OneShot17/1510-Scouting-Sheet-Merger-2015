@@ -65,7 +65,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 						if possiblyAMatch == Match.csvHeader() {
 							continue;
 						}
-						Globals.matches.append(Match(fromString: possiblyAMatch)!);
+						if let match = Match(fromString: possiblyAMatch) {
+							Globals.matches.append(match);
+							Globals.incrementMatches.fire();
+						}
 					}
 				}
 			}

@@ -92,7 +92,7 @@ class Team {
         result += "\(teleLitterAvg),";
         result += "\(maxBinHeight),";
         result += "\(usesFeeder.toString()),";
-        result += "\(usesLandfill.toString()),";
+        result += "\(usesLandfill.toString())\n";
         
         return result;
     }
@@ -103,16 +103,16 @@ class Team {
         result += "Team,";
         result += "Matches,";
         result += "% Auto-zone ends,"
-        result += "Average yellow totes in Auto";
-        result += "Average bins in Auto";
-        result += "Average Teleop stacks";
-        result += "Average totes per stack";
-        result += "Average totes in Teleop";
-        result += "Average bins scored in Teleop";
-        result += "Average noodles scored";
-        result += "Max bin-stacking height";
-        result += "Uses human feeder";
-        result += "Can use landfill";
+        result += "Average yellow totes in Auto,";
+        result += "Average bins in Auto,";
+        result += "Average Teleop stacks,";
+        result += "Average totes per stack,";
+        result += "Average totes in Teleop,";
+        result += "Average bins scored in Teleop,";
+        result += "Average noodles scored,";
+        result += "Max bin-stacking height,";
+        result += "Uses human feeder,";
+        result += "Can use landfill\n";
         
         return result;
     }
